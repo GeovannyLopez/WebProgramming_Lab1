@@ -16,3 +16,20 @@ $(document).ready(function () {
         }]
     });
 });
+
+//CRUD functions 
+function DetailsFunction(idSong){
+    window.location.href = "Views/Song/Details.html";
+}
+
+function CreateFunction(){
+    window.location.href = "Views/Song/Create.html";
+}
+
+function EditFunction(idSong){
+    window.location.href = "Views/Song/Edit.html";
+}
+
+function DeleteFunction(idSong){
+    window.location.href = "Views/Song/Delete.html";
+}
